@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ampliflyapp-dev-173325-authRole",
+      "UnauthRoleArn": "arn:aws:iam::563553112525:role/amplify-ampliflyapp-dev-173325-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::563553112525:role/amplify-ampliflyapp-dev-173325-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ampliflyapp-dev-173325-deployment",
+      "UnauthRoleName": "amplify-ampliflyapp-dev-173325-unauthRole",
+      "StackName": "amplify-ampliflyapp-dev-173325",
+      "StackId": "arn:aws:cloudformation:us-east-1:563553112525:stack/amplify-ampliflyapp-dev-173325/aaa6b060-9b3b-11ed-ac90-1258446b72c3",
+      "AmplifyAppId": "d2tlpf8bddfl5q"
+    }
+  },
+  "auth": {
+    "ampliflyapp176dc814": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ampliflyapp-dev-173325-deployment/amplify-cfn-templates/auth/ampliflyapp176dc814-cloudformation-template.json",
+        "logicalId": "authampliflyapp176dc814"
+      },
+      "lastPushTimeStamp": "2023-01-23T17:05:56.945Z",
+      "output": {
+        "UserPoolId": "us-east-1_D1hRrSOi8",
+        "AppClientIDWeb": "5lhsm300522045c373mgasiqem",
+        "AppClientID": "4h0jskbrma188g8up3hqnfje7j",
+        "IdentityPoolId": "us-east-1:78209e53-9c77-47d7-b94b-71dad0c67b37",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:563553112525:userpool/us-east-1_D1hRrSOi8",
+        "IdentityPoolName": "ampliflyapp176dc814_identitypool_176dc814__dev",
+        "UserPoolName": "ampliflyapp176dc814_userpool_176dc814"
+      },
+      "lastPushDirHash": "kLC8IaMo7UTSP2f0mIsoDsWfBBQ="
+    }
+  }
+}
