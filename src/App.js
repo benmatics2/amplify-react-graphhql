@@ -9,6 +9,7 @@ import {
   Card,
 } from "@aws-amplify/ui-react";
 
+
 function App({ signOut }) {
   return (
     <View className="App">
@@ -22,4 +23,3 @@ function App({ signOut }) {
 }
 
 export default withAuthenticator(App);
-//Try "amplify add api" to create a backend API and then "amplify push" to deploy everything
